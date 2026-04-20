@@ -87,8 +87,6 @@ solana-escrow-security-audit.md  # adversarial scenario matrix
 
 1. **Pooled vault?** Current design = one vault per task. A pooled design (one master vault + internal ledger) would save ~0.002 SOL rent per task and enable yield on idle escrow. Trade-off: custom accounting, fresh audit, global-drain blast radius if a bug slips.
 
-2. **Admin multisig.** Single keypair today. Migration path to Squads before mainnet flip, blocked on mainnet decision.
-
 ## License
 
 MIT.
