@@ -89,8 +89,6 @@ solana-escrow-security-audit.md  # adversarial scenario matrix
 
 2. **Admin multisig.** Single keypair today. Migration path to Squads before mainnet flip, blocked on mainnet decision.
 
-3. **Auto-approve / auto-resolve cranks.** Contract supports 14-day time-gated auto-approval + auto-dispute-resolution. Backend currently does NOT call them (early-stage policy: no fund release without explicit poster click). Re-enable later once trust signals mature.
-
 ## License
 
 MIT.
